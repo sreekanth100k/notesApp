@@ -16,7 +16,7 @@ class EnterTitleAndNotesActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.enter_title_and_notes_activity)
 
-       mContentEt  = findViewById(R.id.id_content_et)
+       mContentEt   =   findViewById(R.id.id_content_et)
 
         mTitleEt    =   findViewById(R.id.id_title_et)
 
@@ -24,8 +24,6 @@ class EnterTitleAndNotesActivity : AppCompatActivity() {
 
 
         mTitleEt.doOnTextChanged { text, start, before, count ->  }
-
-
 
 
 
